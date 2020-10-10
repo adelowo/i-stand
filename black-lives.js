@@ -46,6 +46,7 @@ const content = `
     <a href="https://dailypost.ng/2020/08/11/policeman-who-brutalised-fashion-designer-over-n50-bribe-dismissed/" target="_blank" rel="noreferrer">Ayomide Taiwo</a>,
     <a href="https://thecitypulsenews.com/cult-clash-gunmen-behead-one-kill-four-rivers-photo/" target="_blank" rel="noreferrer">Godspower Edoha</a>,
     <a href="https://reliefweb.int/report/nigeria/killing-will-extrajudicial-executions-and-other-unlawful-killings-police-nigeria" target="_blank" rel="noreferrer">Chukwuemeka Matthew Onovo</a>,
+    <a href="https://guardian.ng/news/police-shoot-dead-bystander-during-endsars-protest-in-ogbomoso/" target="_blank" rel="noreferrer"> Jimoh Isiaq </a>,
     and countless others who have been victims of <span class="red">SARS</span> and in general <span class="red">police brutality</span>.
   </p>
 
@@ -57,9 +58,9 @@ const content = `
 class BlackLives extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({ mode: 'open' });
+    this.attachShadow({ mode: "open" });
     this.shadowRoot.innerHTML = content;
   }
 }
 
-customElements.define('black-lives', BlackLives);
+customElements.define("black-lives", BlackLives);
